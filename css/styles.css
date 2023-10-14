@@ -319,7 +319,8 @@ img {
 }
 .list-item-third {
     background-color: #FFFFFF;
-    max-width: 266px;
+    width: auto;
+    height: auto;
     margin: 0;
     justify-content: center;
     align-items: center;
@@ -388,7 +389,8 @@ img {
     gap: 48px;
 }
 .portfolio-card {
-    width: 100%;;
+    width: 288px;
+    height: 400px;
     padding-bottom: 0px;
     flex-shrink: 0;
     background: var(--WHITE, #FFF);
@@ -432,7 +434,6 @@ img {
 .portfolio-card:hover .label{
     transform: translateY(0);
 }
-
             /* F O O T E R */
 .footer {
     background-color: #2E2F42;
@@ -789,7 +790,7 @@ input:checked + .check-text>.new-box {
 .modal-submit-btn:focus {
     background-color: #404BBF;
 }
-.is-opened {
+.is-open {
     opacity: 100%;
     visibility: visible;
     pointer-events: auto;
